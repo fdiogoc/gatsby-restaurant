@@ -10,7 +10,7 @@ const BannerButton = styled.button`
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
   font-weight: 700;
-  ${styles.border({ color: `${styles.colors.mainWhite}` })}
+  ${styles.border({ color: `${styles.colors.mainWhite}` })};
   margin-bottom: 1rem;
   ${styles.transition({})};
   &:hover {
